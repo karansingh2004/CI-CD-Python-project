@@ -1,5 +1,5 @@
 def add(a,b):
-    print(f"\nAddition of {a} and {b} is {a+b}\n")
+    return a+b
 
 def test_add():
     assert add(1, 2) == 3
